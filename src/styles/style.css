@@ -1,0 +1,456 @@
+@import url(./global.css);
+
+/* -----------------Header---------------- */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 0;
+    background-color: var(--color-neutral-Silver);
+}
+
+.logo-header>img {
+    width: 154.49px;
+    height: 24px;
+}
+
+.nav-header>ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-header>ul>li>a {
+    color: #18191F;
+    font-weight: var(--font-body-2-weight-regular);
+}
+
+.nav-header>ul>li>a:hover {
+    color: var(--color-primary);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.container-btn-header {
+    display: flex;
+    gap: 14px;
+}
+
+.container-btn-header button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container-btn-header .btn-login {
+    color: var(--color-primary);
+    background-color: var(--color-neutral-Silver);
+}
+
+.container-btn-header .btn-signUp {
+    color: var(--color-neutral-White);
+    background-color: var(--color-primary);
+}
+
+/* -----------------FIm Header---------------- */
+/* -----------------Main---------------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-neutral-Silver);
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+    align-items: flex-start;
+}
+
+.content-hero>h1 {
+    font-size: var(--font-headeline-1-size);
+}
+
+.content-hero>h1>span {
+    color: var(--color-primary)
+}
+
+.image-hero {
+    width: 391px;
+    height: 407px;
+}
+
+/* -----------------FIm Main---------------- */
+/* -----------------FIm Our Clients---------------- */
+.our-clients {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 40px 0;
+}
+
+.content-our-clients {
+    display: flex;
+    flex-direction: column;
+    grid-area: 8px;
+    align-items: center;
+}
+
+.container-logo-clients {
+    display: flex;
+    padding: 25px 0;
+    gap: 136px;
+    justify-content: center;
+}
+
+/* -----------------FIm Our Clients---------------- */
+/* -----------------Manage sytem---------------- */
+.manage-sytem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.content-manage-sytem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-manage-sytem>h2 {
+    width: 542px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 127.5px;
+}
+
+.cards-container>article {
+    width: 299px;
+    box-shadow: 0 2px 4px rgba(196, 195, 195, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.cards-container>article:hover {
+   box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+   transform: translateY(-8px);
+}
+
+.cards-container>article>img{
+    width: 65px;
+    height: 56px;
+}
+/* -----------------FIm  manage sytem---------------- */
+
+/* -----------------Pixelgrade---------------- */
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-top: 42px;
+}
+.pixelgrade-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 601px;    
+    
+}
+.pixelgrade-content > h2 {
+    width: 564px;
+}
+.pixelgrade-content > p {
+    font-size: var(--font-body-3-size);
+    line-height: 20px;
+}
+/* ----------------- Fim Pixelgrade---------------- */
+/* ----------------- Helping-local---------------- */
+.helping-local{
+    background-color: var(--color-neutral-Silver);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
+    padding: 64px;
+    margin-top: 48px;
+}
+
+.helping-local-content h2{
+    width: 390px;
+    font-size: var(--font-headeline-2-size);
+}
+.helping-local-content> h2>span{
+    color: var(--color-primary)
+}
+.helping-local-content> p{
+    color: #18191F;
+}
+.helping-local-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 120px;
+}
+.helping-local-items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/* ----------------- Fim Helping-local-------------------- */
+/* ----------------- Design-------------------- */
+.design{
+    display: flex;
+    gap:49px;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;    
+}
+.design-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+    width: 601px;
+    
+}
+/* ----------------- Fim Design-------------------- */
+/* ----------------- Customers---------------------- */
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    padding: 32px 0;
+    background-color: var(--color-neutral-Silver);
+    margin-top: 48px;
+}
+.customer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 748px;
+    line-height: 24px;
+}
+.customer-signature{
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+.customer-signature h2 {
+    color: var(--color-primary);
+    font-size: var(--font-headeline-4-size);
+    font-weight: var(--font-headeline-4-weight);
+}
+.customer-signature p{
+    color: var(--color-neutral-L_Grey);
+}
+.customer-container{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 16px;
+}
+.customer-items{
+    display: flex;  
+    gap: 41px; 
+}
+.customer-items img{
+    width: 48px;
+}
+.customer-items a{
+    display: flex;   
+}
+
+/* ----------------- Fim Customers-------------------- */
+/* ----------------- Caring Marketing-------------------- */
+.caring-marketing{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    margin-top: 48px;
+}
+.caring-marketing-content > p{
+    width: 628px;
+    margin: 0 auto;
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-regular);
+}
+.caring-marketing-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.caring-marketing-card{
+    width: 368px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caring-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--color-neutral-Silver);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 8 16 rgba(171, 190, 209, 0.4);
+    width: 317px;
+    position: absolute;
+    top: 190px;   
+}
+.caring-card-content h3{
+    font-size: var(--font-headeline-4-size);
+    color: var(--color-neutral-Grey);
+    font-weight: var(--font-headeline-4-weight);
+    width: 280px;
+}
+/* ----------------- Fim Caring Marketing-------------------- */
+/* ----------------- Pelentesque-------------------- */
+.pellentesque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0;
+    background-color: var(--color-neutral-Silver);    
+    margin-top: 94.6px;
+}
+.pellentesque h2 {
+    width: 887px;
+    font-size: var(--font-headeline-1-size);
+    font-weight: var(--font-headeline-1-weight);
+    color: var(--color-neutral-black);
+    text-align: center;
+}
+.pellentesque div{
+    display: flex;
+    align-items: center;
+    
+    background-color: var(--color-primary);
+}
+.pellentesque  a {
+    display: flex;
+    gap: 8px;
+    color: var(--color-neutral-White);
+    background-color: var(--color-primary);
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 6px;
+}
+/* ----------------- Fim Pelentesque-------------------- */
+/* -------------------Footer-------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 269px;
+    padding: 64px;
+    background-color: var(--color-neutral-black);
+
+}
+.copyright-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.copyright-reserved p{
+    color: var(--color-neutral-Silver);
+}
+.copyright-reserved p:nth-of-type(1){
+    margin-bottom: 8px;
+}
+.footer-socials{
+    display: flex;
+    gap: 16px; 
+}
+.social-icon {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 7.47PX;
+    border-radius: 100%;  
+    transition: 0.3s;  
+}
+.social-icon a {
+    display: flex;
+}
+
+.social-icon:hover{   
+    background-color: var(--color-primary); 
+    transform: translateY(-10px);
+}
+.footer-navigation{
+    display: flex;
+    gap: 97px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-container h2{
+    color: var(--color-neutral-White);
+    font-size: var(--font-headeline-4-size);
+    font-weight: var(--font-headeline-4-weight);
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: var(--font-body-3-size);    
+}
+.footer-links li:hover{
+    transition: 0.3s;   
+    transform: translateX(10px); 
+}
+.footer-item{
+    color: var(--color-neutral-Silver);
+}
+
+.footer-item:hover{
+    color: var(--color-primary); 
+}
+.footer-container form{
+    display: flex;
+    align-items: center;
+}
+.footer-container form input{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 12px;
+    color: #D9DBE1;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+.footer-container form input::placeholder{
+    color: #D9DBE1;
+}
+.footer-container form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8.8px;
+    border-radius: 0 8px 8px 0;
+}
+.footer-container form button:hover{
+    background-color: var(--color-primary);
+    transition: 0.2s;
+}
+
+/* ----------------- Fim FOoter-------------------- */
